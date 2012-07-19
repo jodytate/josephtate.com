@@ -1,4 +1,2 @@
 josephtate.com
 ==============
-
-Testing.
