@@ -26,7 +26,7 @@
   <body>
 
   	<header>
-    	<nav class="navbar navbar-fixed-top" role="navigation">
+    	<div class="navbar navbar-fixed-top" role="navigation">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -44,17 +44,5 @@
           </div><!--/.nav-collapse -->
         </div>
       </div>
-    	</nav>
+    	</div>
 	</header>
-
-    <div class="container">
-
-      <h1>A Basic Page</h1>
-      <p>Yep. Pretty basic.</p>
-
-    </div> <!-- end .container -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
-
-  </body>
-</html>
