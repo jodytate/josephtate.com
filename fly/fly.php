@@ -2,8 +2,10 @@
 
     <div class="container">
 
-      <h1>A Basic Page</h1>
-      <p>Yep. Pretty basic.</p>
+      <div class="hero-unit">
+        <h1>An Index Page</h1>
+        <p>Welcome, welcome. Let's live reload. Again.</p>
+      </div>
 
     </div> <!-- end .container -->
 

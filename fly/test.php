@@ -1,23 +1,22 @@
 <?php 
+	
+	$title = "Test Page";
+	$description = "";
 
-$title = "A Cleaner Internet - Browser Extensions and Add-ons";
-$description = "iOS Apps as well Browser Extensions and Add-ons for Chrome, Firefox and Safari that clean and declutter the web";
-
-include './includes/header.php' 
+	include './includes/header.php' 
 
 ?>
 
     <div class="container">
 
-      <h1>A Basic Page</h1>
-      <p>Yep. Pretty basic.</p>
+      <h1>A Test Page</h1>
+      <p>Yep. A basic test pages.</p>
 
     </div> <!-- end .container -->
 
 <?php 
 
-$otherScripts = array("foo", "bar", "waka");
-
-include './includes/footer.php' 
+	$otherScripts = array("foo", "bar", "waka");
+	include './includes/footer.php' 
 
 ?>

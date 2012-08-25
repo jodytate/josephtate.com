@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>A Basic Page</title>
+    <title><?php echo $title ?></title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="">
+    <meta name="description" content="<?php echo $description ?>">
     <meta name="author" content="Jody Tate">
 
     <style>
@@ -14,6 +14,7 @@
     </style>
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/font-awesome.css" rel="stylesheet">
+    <link href="./css/fly.css" rel="stylesheet">
 
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -34,10 +35,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Jody's Basic Page</a>
+          <a class="brand" href="#">The Fly Project</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
+              <li class="active"><a href=".">Home</a></li>
               <li><a href="http://josephtate.com">Jody's Website</a></li>
               <li><a href="mailto:jody@josephtate.com">Contact</a></li>
             </ul>
