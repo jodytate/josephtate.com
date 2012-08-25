@@ -1,4 +1,11 @@
-<?php include './includes/header.php' ?>
+<?php 
+
+$title = "A Cleaner Internet - Browser Extensions and Add-ons";
+$description = "iOS Apps as well Browser Extensions and Add-ons for Chrome, Firefox and Safari that clean and declutter the web";
+
+include './includes/header.php' 
+
+?>
 
     <div class="container">
 
@@ -7,4 +14,10 @@
 
     </div> <!-- end .container -->
 
-<?php include './includes/footer.php' ?>
+<?php 
+
+$otherScripts = array("foo", "bar", "waka");
+
+include './includes/footer.php' 
+
+?>
