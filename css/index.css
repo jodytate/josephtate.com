@@ -221,7 +221,7 @@ td { vertical-align: top; }
 
 body {
     /* from http://css-tricks.com/snippets/css/better-helvetica/ */
-   font-family: 'PT Serif',"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	color: #c1bba6;
 	/*color: #e8c2b8;
 	background: #be583d;} */
