@@ -1,4 +1,0 @@
-josephtate.com
-==============
-
-Personal website. 
