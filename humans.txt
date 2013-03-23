@@ -1,0 +1,20 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jody Tate -- @josephtate
+
+# THANKS
+
+    Many to come. 
+
+# TECHNOLOGY COLOPHON
+
+    HTML5,
+    CSS3,
+    jQuery, 
+    Modernizr,
+    Bootstrap,
+    Grunt,
+    Sass
