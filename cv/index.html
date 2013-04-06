@@ -4,28 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <title>joseph matthew tate, ph.d. : curriculum vitae</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" media="screen" href="../css/font-awesome.css">
+    <link rel="stylesheet" media="screen" href="../css/styles.css">
 </head>
 
 <body> 
-<div id="content"><a id="top"></a>
+<div id="container"><a id="top"></a>
 
     <div id="header">
-        <h1>joseph matthew tate, ph.d. <span>: curriculum vitae</span></h1>
+        <h2>joseph matthew tate, ph.d. <span>: curriculum vitae</span></h2>
     </div> <!-- end #header  -->
 
+    <br/><br/>
+
     
-    <div id="table_of_contents">
+    <!--<div id="table_of_contents">
     <h2>Table of Contents</h2>
         <ul>
          <li><a href="#education">Education</a></li>
             <li><a href="#web_employment">Web Employment</a></li>
-            <!--<li><a href="#web_portfolio">Web Portfolio</a></li>-->
+            <li><a href="#web_portfolio">Web Portfolio</a></li>
             <li><a href="#acad_employment">Academic Employment</a></li>
             <li><a href="#publications">Publications</a></li>
             <li><a href="#activities">Activities</a></li>
             <li><a href="#grants_awards">Grants and Awards</a> </li>
         </ul>
-    </div>
+    </div> -->
  
       <h3><a id="education"></a>Education</h3>
       <p><a href="http://www.washington.edu/" title="University of Washington web site">University of Washington</a>, Seattle </p>
@@ -365,22 +370,16 @@ href="http://www.humanities.ualberta.ca/emls/iemls/conf/programs/memsop.html">Me
     </div>
    
 </div>
- 
-<p id="updated"> 
-
-<?php
-    // outputs e.g. 'Last modified: March 04, 1998.'
-    echo "This page was updated on " . date ("F d, Y", getlastmod()) . '.' 
-?><br/>
-Thanks for visiting. <br/>
-Back to <a href="http://josephtate.com/">josephtate.com</a>.
-</p>
- 
- 
-</div><!-- end #container -->
   
-<script src="../js/jquery-1.5.min.js"></script>
-<script src="../js/josephtate_core.js"></script>
+</div><!-- end #container -->
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+
+    $(function(){
+       $('#container').fadeIn('slow'); 
+    });
+    
+</script>
 </body>
 </html>
