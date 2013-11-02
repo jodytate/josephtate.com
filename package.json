@@ -2,6 +2,10 @@
   "name": "josephtate.com",
   "description": "Joseph Tate's website",
   "author": "Jody Tate @josephtate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jodytate/josephtate.com.git"
+  },
   "dependencies": {
   },
   "devDependencies": {
@@ -11,6 +15,5 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-cssmin": "~0.6.2"
-  },
-  "engine": "node >= 0.4.1"
+  }
 }

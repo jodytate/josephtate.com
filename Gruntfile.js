@@ -37,17 +37,19 @@ grunt.loadNpmTasks('grunt-contrib-watch');
     sass: {
       dist: {
         files: {
-          'css/styles.css': 'css/styles.scss',
+          'css/josephtate.css': 'css/josephtate.scss',
         }
       }
     },
     watch: {
-      files: '<config:lint.files>',
-      tasks: 'sass'
+      sass: {
+        files: 'josephtate.scss',
+        tasks: ['sass']
+      }
     }
   });
 
   // Default task.
-  grunt.registerTask('default', 'sass concat cssmin');
+  grunt.registerTask('default', ['sass', 'concat', 'cssmin']);
 
 };
