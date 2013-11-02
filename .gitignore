@@ -15,3 +15,5 @@ Icon
 # Sublime Text 2 
 # for mapping to remote, http://wbond.net/sublime_packages/sftp
 sftp-config.json
+
+.sass-cache
