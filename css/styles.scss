@@ -221,31 +221,29 @@ td { vertical-align: top; }
 
 body {
   /* from http://css-tricks.com/snippets/css/better-helvetica/ */
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	color: #CCCCCC;
-	background: rgb(39, 40, 34);
-	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      color: #555555;
+	 background: #FCFCFC;
 }
 
 a {
-  &:link,
-  &:visited {
-      color:#FFFFFF;
+  &:link {
+      color:#069;
       text-decoration: none;
   }
-
+  &:visited {
+      color:#069;
+      text-decoration: none;
+  }
   &:hover   {
-      color: #FFFFFF;
+      color: #111111;
       text-decoration: underline;
 
   } /* user hovers     */
-
   &:active  {
-      color: #fcdcaa;
+      color: #000000;
   }
 }
-
-/* active links    */
 
 #container {
     width: 50%;
@@ -261,21 +259,24 @@ h1, h2, h3 {
 
 h1 {
     font-size: 4em;
-    color:#FFFFFF;
+    color:#222222;
     font-weight: 300;
     span {
-      color:#a49d92;
-  }
+      color:#333333;
+    }
+    a:hover {
+        text-decoration: none;
+    }
 }
 
 h2 {
     font-size: 1.25em;
-    color: #a49d92;
+    color: #AAAAAA;
     font-weight: 300; }
 
 h3 {
     font-size: 1em;
-    color: #a49d92;
+    color: #AAAAAA;
     font-weight: 300;
 
 }
@@ -286,16 +287,12 @@ h3 {
     li {
       list-style: none;
       display: inline;
-      letter-spacing: 1em;
+      letter-spacing: .25em;
     }
 }
 
 #more {
     margin: 2em;
-}
-
-p {
-    padding-left: .5em;
 }
 
 ul {
