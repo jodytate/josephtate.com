@@ -221,7 +221,7 @@ td { vertical-align: top; }
 
 body {
   /* from http://css-tricks.com/snippets/css/better-helvetica/ */
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	color: #CCCCCC;
 	background: rgb(39, 40, 34);
 	text-shadow: 0 1px 1px rgba(0,0,0,.4);
@@ -234,17 +234,17 @@ a {
       text-decoration: none;
   }
 
-  &:hover   { 
-      color: #FFFFFF; 
-      text-decoration: underline; 
+  &:hover   {
+      color: #FFFFFF;
+      text-decoration: underline;
 
   } /* user hovers     */
-      
-  &:active  { 
-      color: #fcdcaa; 
-  }  
+
+  &:active  {
+      color: #fcdcaa;
+  }
 }
- 
+
 /* active links    */
 
 #container {
@@ -276,8 +276,8 @@ h2 {
 h3 {
     font-size: 1em;
     color: #a49d92;
-    font-weight: 300;  
-    
+    font-weight: 300;
+
 }
 
 .me-links {
@@ -320,7 +320,7 @@ li {
         margin: 0 auto 0 auto;
         font-size: .85em;
     }
-  
+
 }
 
 
@@ -370,5 +370,3 @@ li {
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
-
-
