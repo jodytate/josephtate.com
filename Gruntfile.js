@@ -1,7 +1,6 @@
 /*global module:false*/
 module.exports = function(grunt) {
 
-grunt.loadNpmTasks('grunt-contrib-concat');
 grunt.loadNpmTasks('grunt-contrib-cssmin');
 grunt.loadNpmTasks('grunt-contrib-sass');
 grunt.loadNpmTasks('grunt-contrib-watch');
@@ -13,17 +12,6 @@ grunt.loadNpmTasks('grunt-contrib-watch');
       banner: '/*! <%= pkg.title || pkg.name %> - v<%= pkg.version %> - ' +
         '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
         '<%= pkg.homepage ? "* " + pkg.homepage + "\n" : "" %>'
-    },
-    concat: {
-      options: {
-        stripBanners: true,
-        banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
-          '<%= grunt.template.today("yyyy-mm-dd") %> */',
-      },
-      dist: {
-        src: ['css/josephtate.css','css/font-awesome.css'],
-        dest: 'css/styles.css',
-      },
     },
     cssmin: {
       minify: {
@@ -37,19 +25,16 @@ grunt.loadNpmTasks('grunt-contrib-watch');
     sass: {
       dist: {
         files: {
-          'css/josephtate.css': 'css/josephtate.scss',
+          'css/styles.css': 'css/styles.scss',
         }
       }
     },
     watch: {
-      sass: {
-        files: 'josephtate.scss',
-        tasks: ['sass']
-      }
+        files: ['css/styles.scss'],
+        tasks: ['sass', 'cssmin']
     }
   });
 
-  // Default task.
-  grunt.registerTask('default', ['sass', 'concat', 'cssmin']);
+  grunt.registerTask('default', ['sass', 'cssmin']);
 
 };
