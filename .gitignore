@@ -1,18 +1,20 @@
-# OS X 
+node_modules
+
+# OS X
 .DS_Store
 .AppleDouble
 .LSOverride
 Icon
- 
- 
+
+
 # Thumbnails
 ._*
- 
+
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
- 
-# Sublime Text 2 
+
+# Sublime Text 2
 # for mapping to remote, http://wbond.net/sublime_packages/sftp
 sftp-config.json
 
