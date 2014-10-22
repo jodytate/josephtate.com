@@ -330,8 +330,7 @@ a {
 
 #container {
   width: 50%;
-  margin: 2em auto 2em auto;
-  display: none; }
+  margin: 2em auto 2em auto; }
 
 h1, h2, h3 {
   padding: 0;
