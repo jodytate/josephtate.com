@@ -1,4 +1,7 @@
 node_modules
+npm-debug.log
+.sass-cache
+
 
 # OS X
 .DS_Store
@@ -13,9 +16,3 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
-
-# Sublime Text 2
-# for mapping to remote, http://wbond.net/sublime_packages/sftp
-sftp-config.json
-
-.sass-cache
