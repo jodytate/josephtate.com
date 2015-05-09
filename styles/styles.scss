@@ -1,0 +1,147 @@
+@import "normalize.css";
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #555555;
+  background: #FFFFFF;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;  
+  -ms-animation: fadein 1s;
+  animation: fadein 1s;
+  font-size: 1.5em;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  -webkit-animation: hue 60s infinite linear;
+  &:link {
+    color:#f35626;
+    text-decoration: none;
+  }
+  &:visited {
+    color:#f35626;
+    text-decoration: none;
+  }
+  &:hover {
+    color: #f35626;
+    text-decoration: underline;
+  }
+  &:active {
+    color: #f35626;
+  }
+}
+
+#container {
+  width: 50%;
+  margin: 2em auto 2em auto;
+}
+
+h1, h2, h3 {
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 4em;
+  color: #222222;
+  font-weight: 300;
+  span {
+    color:#333333;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+h2 {
+  font-size: 1.25em;
+  color: #AAAAAA;
+  font-weight: 300; 
+}
+
+h3 {
+  font-size: 1em;
+  color: #AAAAAA;
+  font-weight: 300;
+}
+
+.me-links {
+  padding: 0;
+  margin: 1em 0 0 0;
+  li {
+    list-style: none;
+    display: inline;
+    letter-spacing: .25em;
+  }
+}
+
+#more {
+  margin: 2em;
+}
+
+ul {
+  padding: 0 0 0 .5em;
+}
+
+li {
+  list-style: none;
+  margin-bottom: .65em;
+}
+
+@media only screen and (max-width: 480px) {
+
+  #container {
+    width: 90%;
+    margin: 0 auto 0 auto;
+    font-size: .85em;
+  }
+
+}
+
+@keyframes fadein {
+  from { 
+    opacity: 0; 
+  }
+  to  {
+    opacity: 1; 
+  }
+}
+
+@-moz-keyframes fadein {
+  from { 
+    opacity: 0;
+  }
+  to  { 
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  from { 
+    opacity: 0;
+  }
+  to  { 
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadein {
+  from { 
+    opacity: 0;
+  }
+  to  { 
+    opacity: 1; 
+  }
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
