@@ -21,3 +21,5 @@ gulp.task('serve', function() {
 gulp.task('watch', function() {
   gulp.watch('./styles/**/*.scss', ['sass']);
 });
+
+gulp.task('default', ['sass']);
