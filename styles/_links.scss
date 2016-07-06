@@ -1,0 +1,25 @@
+a {
+  color: inherit;
+  text-decoration: underline;
+  &.rainbow {
+    -webkit-animation: hue 60s infinite linear;
+  }
+  &.poems {
+    color: #777777;
+  }
+  &:link {
+    color:#f35626;
+    text-decoration: none;
+  }
+  &:visited {
+    color:#f35626;
+    text-decoration: none;
+  }
+  &:hover {
+    color: #f35626;
+    text-decoration: underline;
+  }
+  &:active {
+    color: #f35626;
+  }
+}

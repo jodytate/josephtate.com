@@ -1,4 +1,47 @@
 @import url(normalize.css);
+h1, h2, h3 {
+  padding: 0;
+  margin: 0;
+  font-weight: 300; }
+
+h1 {
+  font-size: 4em;
+  color: #222222;
+  font-weight: 300; }
+  h1 span {
+    color: #333333; }
+  h1 a:hover {
+    text-decoration: none; }
+
+h2 {
+  font-size: 1.25em;
+  color: #AAAAAA;
+  font-weight: 300; }
+
+h3 {
+  font-size: 1em;
+  color: #AAAAAA;
+  font-weight: 300; }
+
+a {
+  color: inherit;
+  text-decoration: underline; }
+  a.rainbow {
+    -webkit-animation: hue 60s infinite linear; }
+  a.poems {
+    color: #777777; }
+  a:link {
+    color: #f35626;
+    text-decoration: none; }
+  a:visited {
+    color: #f35626;
+    text-decoration: none; }
+  a:hover {
+    color: #f35626;
+    text-decoration: underline; }
+  a:active {
+    color: #f35626; }
+
 @keyframes fadein {
   from {
     opacity: 0; }
@@ -38,25 +81,6 @@ body {
   -ms-animation: fadein 1s;
   animation: fadein 1s; }
 
-a {
-  color: inherit;
-  text-decoration: underline; }
-  a.rainbow {
-    -webkit-animation: hue 60s infinite linear; }
-  a.poems {
-    color: #777777; }
-  a:link {
-    color: #f35626;
-    text-decoration: none; }
-  a:visited {
-    color: #f35626;
-    text-decoration: none; }
-  a:hover {
-    color: #f35626;
-    text-decoration: underline; }
-  a:active {
-    color: #f35626; }
-
 #container {
   width: 50%;
   margin: 2em auto 2em auto;
@@ -70,30 +94,6 @@ a {
         color: #999999; }
         #container.poems p.cite cite a {
           color: #666666; }
-
-h1, h2, h3 {
-  padding: 0;
-  margin: 0;
-  font-weight: 300; }
-
-h1 {
-  font-size: 4em;
-  color: #222222;
-  font-weight: 300; }
-  h1 span {
-    color: #333333; }
-  h1 a:hover {
-    text-decoration: none; }
-
-h2 {
-  font-size: 1.25em;
-  color: #AAAAAA;
-  font-weight: 300; }
-
-h3 {
-  font-size: 1em;
-  color: #AAAAAA;
-  font-weight: 300; }
 
 .me-links {
   padding: 0;

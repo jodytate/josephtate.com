@@ -1,5 +1,7 @@
 @import "normalize.css";
 
+@import "headers";
+@import "links";
 @import "rainbow";
 
 body {
@@ -10,32 +12,6 @@ body {
   -moz-animation: fadein 1s;  
   -ms-animation: fadein 1s;
   animation: fadein 1s;
-}
-
-a {
-  color: inherit;
-  text-decoration: underline;
-  &.rainbow {
-    -webkit-animation: hue 60s infinite linear;
-  }
-  &.poems {
-    color: #777777;
-  }
-  &:link {
-    color:#f35626;
-    text-decoration: none;
-  }
-  &:visited {
-    color:#f35626;
-    text-decoration: none;
-  }
-  &:hover {
-    color: #f35626;
-    text-decoration: underline;
-  }
-  &:active {
-    color: #f35626;
-  }
 }
 
 #container {
@@ -57,36 +33,6 @@ a {
       }
     }
   }
-}
-
-h1, h2, h3 {
-  padding: 0;
-  margin: 0;
-  font-weight: 300;
-}
-
-h1 {
-  font-size: 4em;
-  color: #222222;
-  font-weight: 300;
-  span {
-    color:#333333;
-  }
-  a:hover {
-    text-decoration: none;
-  }
-}
-
-h2 {
-  font-size: 1.25em;
-  color: #AAAAAA;
-  font-weight: 300; 
-}
-
-h3 {
-  font-size: 1em;
-  color: #AAAAAA;
-  font-weight: 300;
 }
 
 .me-links {
