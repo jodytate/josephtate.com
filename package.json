@@ -7,9 +7,9 @@
     "url": "https://github.com/jodytate/josephtate.com.git"
   },
   "devDependencies": {
-    "browser-sync": "^2.7.1",
-    "gulp": "^3.8.11",
-    "gulp-sass": "^2.0.0",
-    "gulp-util": "^3.0.4"
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-util": "^3.0.7"
   }
 }
