@@ -1,5 +1,3 @@
-'use strict';
-
 var browserSync = require('browser-sync');
 var gulp = require('gulp');
 var sass = require('gulp-sass');
