@@ -10,7 +10,6 @@ body {
   -moz-animation: fadein 1s;  
   -ms-animation: fadein 1s;
   animation: fadein 1s;
-  font-size: 1.5em;
 }
 
 a {
@@ -37,6 +36,10 @@ a {
 #container {
   width: 50%;
   margin: 2em auto 2em auto;
+  font-size: 1.25rem;
+  &.poems {
+    font-size: 1rem;
+  }
 }
 
 h1, h2, h3 {
