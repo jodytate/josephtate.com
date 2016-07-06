@@ -40,8 +40,11 @@ body {
 
 a {
   color: inherit;
-  text-decoration: underline;
-  -webkit-animation: hue 60s infinite linear; }
+  text-decoration: underline; }
+  a.rainbow {
+    -webkit-animation: hue 60s infinite linear; }
+  a.poems {
+    color: #777777; }
   a:link {
     color: #f35626;
     text-decoration: none; }
@@ -60,6 +63,13 @@ a {
   font-size: 1.25rem; }
   #container.poems {
     font-size: 1rem; }
+    #container.poems p.cite {
+      margin-top: 50px; }
+      #container.poems p.cite cite {
+        font-size: .75rem;
+        color: #999999; }
+        #container.poems p.cite cite a {
+          color: #666666; }
 
 h1, h2, h3 {
   padding: 0;

@@ -15,7 +15,12 @@ body {
 a {
   color: inherit;
   text-decoration: underline;
-  -webkit-animation: hue 60s infinite linear;
+  &.rainbow {
+    -webkit-animation: hue 60s infinite linear;
+  }
+  &.poems {
+    color: #777777;
+  }
   &:link {
     color:#f35626;
     text-decoration: none;
@@ -39,6 +44,18 @@ a {
   font-size: 1.25rem;
   &.poems {
     font-size: 1rem;
+    p {
+      &.cite {
+        margin-top: 50px;
+        cite {
+          font-size: .75rem;
+          color: #999999;
+          a {
+            color: #666666;
+          }
+        }
+      }
+    }
   }
 }
 
