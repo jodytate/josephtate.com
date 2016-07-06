@@ -14,7 +14,7 @@ gulp.task('sass', function () {
 gulp.task('serve', function() {
   browserSync({
     server: {
-      baseDir: 'app'
+      baseDir: '/'
     }
   });
   gulp.watch(['*.html', 'styles/**/*.css', 'scripts/**/*.js'], {cwd: 'app'}, reload);
