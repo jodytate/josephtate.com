@@ -1,4 +1,4 @@
 josephtate.com
 ==============
 
-Jody's website.
+Jody Tate's website.
