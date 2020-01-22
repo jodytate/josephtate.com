@@ -26,6 +26,7 @@ h3 {
 a {
   color: inherit;
   text-decoration: underline;
+  animation: hue 60s infinite linear;
  }
   
   a.poems {
@@ -88,3 +89,13 @@ li {
     width: 90%;
     margin: 0 auto 0 auto;
     font-size: .85em; } }
+
+@keyframes hue {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  
+  to {
+    filter: hue-rotate(-360deg);
+  }
+}
