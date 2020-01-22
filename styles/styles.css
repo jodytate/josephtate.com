@@ -27,21 +27,25 @@ a {
   color: inherit;
   text-decoration: underline;    
   animation: hue 60s infinite linear;
- }
+}
   
-  a.poems {
-    color: #777777; }
-  a:link {
-    color: #f35626;
-    text-decoration: none; }
-  a:visited {
-    color: #f35626;
-    text-decoration: none; }
-  a:hover {
-    color: #f35626;
-    text-decoration: underline; }
-  a:active {
-    color: #f35626; }
+a:hover {
+  color: #f35626;
+}
+  
+a.poems {
+  color: #777777; }
+a:link {
+  color: #f35626;
+  text-decoration: none; }
+a:visited {
+  color: #f35626;
+  text-decoration: none; }
+a:hover {
+  color: #f35626;
+  text-decoration: underline; }
+a:active {
+  color: #f35626; }
 
 body {
   font-family: 'Roboto', sans-serif;
