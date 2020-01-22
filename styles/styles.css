@@ -25,7 +25,7 @@ h3 {
 
 a {
   color: inherit;
-  text-decoration: underline;
+  text-decoration: underline;    
   animation: hue 60s infinite linear;
  }
   
