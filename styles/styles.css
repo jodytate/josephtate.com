@@ -1,4 +1,5 @@
 @import url(normalize.css);
+
 h1, h2, h3 {
   padding: 0;
   margin: 0;
@@ -8,10 +9,14 @@ h1 {
   font-size: 4em;
   color: #222222;
 }
-  h1 span {
-    color: #333333; }
-  h1 a:hover {
-    text-decoration: none; }
+
+h1 span {
+  color: #333333; 
+}
+  
+h1 a:hover {
+  text-decoration: none; 
+}
 
 h2 {
   font-size: 1.25em;
