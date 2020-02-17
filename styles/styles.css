@@ -2,12 +2,12 @@
 h1, h2, h3 {
   padding: 0;
   margin: 0;
-  font-weight: 300; }
+}
 
 h1 {
   font-size: 4em;
   color: #222222;
-  font-weight: 300; }
+}
   h1 span {
     color: #333333; }
   h1 a:hover {
@@ -16,12 +16,12 @@ h1 {
 h2 {
   font-size: 1.25em;
   color: #AAAAAA;
-  font-weight: 300; }
+}
 
 h3 {
   font-size: 1em;
   color: #AAAAAA;
-  font-weight: 300; }
+}
 
 a {
   color: inherit;
