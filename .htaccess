@@ -1,1 +1,3 @@
 # because really people.
+
+ErrorDocument 404 /404.html
