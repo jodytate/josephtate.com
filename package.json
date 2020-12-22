@@ -5,5 +5,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jodytate/josephtate.com.git"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
