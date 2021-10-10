@@ -95,13 +95,14 @@ body {
 }
 
 .me-links {
+  font-size: 1.75rem;
   padding: 0;
-  margin: 1em 0 0 0;
+  margin: 0.5em 0 1em 0;
 }
 .me-links li {
   list-style: none;
   display: inline;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.15em;
 }
 
 #more {
