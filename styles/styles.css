@@ -1,6 +1,8 @@
 @import url(normalize.css);
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   padding: 0;
   margin: 0;
 }
@@ -11,101 +13,119 @@ h1 {
 }
 
 h1 span {
-  color: #333333; 
+  color: #333333;
 }
-  
+
 h1 a:hover {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 h2 {
   font-size: 1.25em;
-  color: #AAAAAA;
+  color: #aaaaaa;
 }
 
 h3 {
   font-size: 1em;
-  color: #AAAAAA;
+  color: #aaaaaa;
 }
 
 a {
   color: inherit;
-  text-decoration: underline;    
+  text-decoration: underline;
   animation: hue 60s infinite linear;
 }
-  
+
 a:hover {
   color: #f35626;
 }
-  
+
 a.poems {
-  color: #777777; }
+  color: #777777;
+}
 a:link {
   color: #f35626;
-  text-decoration: none; }
+  text-decoration: none;
+}
 a:visited {
   color: #f35626;
-  text-decoration: none; }
+  text-decoration: none;
+}
 a:hover {
   color: #f35626;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 a:active {
-  color: #f35626; }
+  color: #f35626;
+}
 
 body {
   font-family: source-sans-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #555555;
-  background: #FFFFFF;
+  background: #ffffff;
   -webkit-animation: fadein 1s;
   -moz-animation: fadein 1s;
   -ms-animation: fadein 1s;
-  animation: fadein 1s; }
+  animation: fadein 1s;
+}
 
 #container {
   width: 50%;
   margin: 2em auto 2em auto;
-  font-size: 1.25rem; }
-  #container.poems {
-    font-size: 1rem; }
-    #container.poems p.cite {
-      margin-top: 50px; }
-      #container.poems p.cite cite {
-        font-size: .75rem;
-        color: #999999; }
-        #container.poems p.cite cite a {
-          color: #666666; }
+  font-size: 1.25rem;
+}
+#container.poems {
+  font-size: 1rem;
+}
+#container.poems p.cite {
+  margin-top: 50px;
+}
+#container.poems p.cite cite {
+  font-size: 0.75rem;
+  color: #999999;
+}
+#container.poems p.cite cite a {
+  color: #666666;
+}
 
 .me-links {
   padding: 0;
-  margin: 1em 0 0 0; }
-  .me-links li {
-    list-style: none;
-    display: inline;
-    letter-spacing: .25em; }
+  margin: 1em 0 0 0;
+}
+.me-links li {
+  list-style: none;
+  display: inline;
+  letter-spacing: 0.25em;
+}
 
 #more {
-  margin: 2em; }
+  margin: 2em;
+}
 
 ul {
-  padding: 0 0 0 .5em; }
+  padding: 0 0 0 0.5em;
+}
 
 li {
   list-style: none;
-  margin-bottom: .65em; }
+  margin-bottom: 0.65em;
+}
 
 @media only screen and (max-width: 480px) {
   #container {
     width: 90%;
     margin: 0 auto 0 auto;
-    font-size: .85em; } }
+    font-size: 0.85em;
+  }
+}
 
 @keyframes hue {
   from {
     filter: hue-rotate(0deg);
   }
-  
+
   to {
     filter: hue-rotate(-360deg);
   }
