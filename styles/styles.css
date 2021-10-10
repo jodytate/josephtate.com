@@ -1,5 +1,9 @@
 @import url(normalize.css);
 
+:root {
+  --link-color: #639af2;
+}
+
 h1,
 h2,
 h3 {
