@@ -41,26 +41,26 @@ a {
 }
 
 a:hover {
-  color: #f35626;
+  color: var(--link-color);
 }
 
 a.poems {
   color: #777777;
 }
 a:link {
-  color: #f35626;
+  color: var(--link-color);
   text-decoration: none;
 }
 a:visited {
-  color: #f35626;
+  color: var(--link-color);
   text-decoration: none;
 }
 a:hover {
-  color: #f35626;
+  color: var(--link-color);
   text-decoration: underline;
 }
 a:active {
-  color: #f35626;
+  color: var(--link-color);
 }
 
 body {
