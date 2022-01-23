@@ -35,8 +35,8 @@ h3 {
 }
 
 a {
-  color: inherit;
-  text-decoration: underline;
+  /* color: inherit;
+  text-decoration: underline; */
   animation: hue 60s infinite linear;
 }
 
