@@ -118,6 +118,10 @@ li {
   margin-bottom: 0.65em;
 }
 
+ol.yank-list a {
+  animation : none !important;
+}
+
 @media only screen and (max-width: 480px) {
   #container {
     width: 90%;
