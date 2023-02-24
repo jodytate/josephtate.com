@@ -118,7 +118,7 @@ li {
   margin-bottom: 0.65em;
 }
 
-ol.yank-list a {
+.stable-link-color a {
   animation : none !important;
 }
 
