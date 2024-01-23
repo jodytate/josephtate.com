@@ -1,9 +1,16 @@
 {
   "name": "josephtate.com",
   "description": "Joseph Tate's website",
-  "author": "Jody Tate @josephtate",
+  "author": {
+    "name": "Joseph Tate",
+    "email": "jody@josephtate.com",
+    "url": "https://josephtate.com"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jodytate/josephtate.com.git"
-  }
+    "url": "git+https://github.com/jodytate/josephtate.com.git"
+  },
+  "homepage": "https://josephtate.com",
+  "version": "1.0.0",
+  "license": "MIT"
 }
