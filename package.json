@@ -12,5 +12,8 @@
   },
   "homepage": "https://josephtate.com",
   "version": "1.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }
