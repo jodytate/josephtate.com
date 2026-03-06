@@ -66,10 +66,10 @@ ul.poems-list li::marker{
   color: #00468b;
 }
 
-ul.poems-list li a {
+ul.writing-list li a {
  text-decoration: none;
 }
 
-ul.poems-list li a:hover {
+ul.writing-list li a:hover {
  text-decoration: underline;
 }
