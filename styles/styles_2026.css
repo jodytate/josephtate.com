@@ -62,8 +62,8 @@ ul.poems-list {
   list-style-type: square;
 }
 
-ul.poems-list li::marker{
-  color: #00468b;
+ul.writing-list {
+  list-style-type: square;
 }
 
 ul.writing-list li a {
