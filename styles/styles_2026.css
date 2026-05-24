@@ -44,14 +44,14 @@ a:hover {
   color: #8B4500;
 }
 
-#container.home-page {
-  width: 50%;
+#container {
+  width: 85%;
   margin: 2em auto 2em auto;
   font-size: 1.25rem;
 }
 
-#container {
-  width: 85%;
+#container .home-page {
+  width: 50%;
   margin: 2em auto 2em auto;
   font-size: 1.25rem;
 }
