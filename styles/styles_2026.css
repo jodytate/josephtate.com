@@ -50,7 +50,7 @@ a:hover {
   font-size: 1.25rem;
 }
 
-#container .home-page {
+#container.home-page {
   width: 50%;
   margin: 2em auto 2em auto;
   font-size: 1.25rem;
