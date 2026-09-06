@@ -2,6 +2,8 @@ node_modules
 npm-debug.log
 .sass-cache
 
+# Environment variables (credentials)
+.env
 
 # OS X
 .DS_Store
